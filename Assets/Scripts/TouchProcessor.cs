@@ -10,7 +10,7 @@ public class TouchProcessor : MonoBehaviour
             var touch = Input.touches[0];
             var camera = Camera.main;
             var wotldPosition = camera.ScreenToWorldPoint(touch.position);
-            Debug.Log($"x = {Math.Round(wotldPosition.x)}    y = {Math.Round(wotldPosition.y)}");
+            //Debug.Log($"x = {Math.Round(wotldPosition.x)}    y = {Math.Round(wotldPosition.y)}");
         }
     }
 }
